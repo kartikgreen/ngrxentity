@@ -1,0 +1,6 @@
+s2capp_client:
+    image: s2capp
+    ports:
+        - "4200:4200"
+    volumes:
+        - .:/s2capp
